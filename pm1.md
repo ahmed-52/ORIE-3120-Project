@@ -37,11 +37,14 @@ Our dataset, *120 Years of Olympic History: Athletes and Results*, was scraped f
 
 ### Question 1: How has women's participation in the Olympics evolved over time, and does the rate of growth differ across regions and sports?
 
-Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of competitors. This aggregate trend likely masks variation — some sports admitted women decades before others, and cultural barriers may have slowed growth in certain regions. This matters to the IOC and national federations working toward gender parity: understanding where progress has been slowest helps direct funding and policy. The dataset records each competitor's sex, NOC, sport, and year, giving us everything needed to track these trends.
+Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of competitors. This aggregate trend likely masks variation,some sports admitted women decades before others, and cultural barriers may have slowed growth in certain regions. This matters to the IOC and national federations working toward gender parity: understanding where progress has been slowest helps direct funding and policy. The dataset records each competitor's sex, NOC, sport, and year, giving us everything needed to track these trends.
+
+
 
 ### Question 2: Does hosting the Olympic Games give a country a measurable home-field advantage in winning medals?
 
 ## 3. Visualizations
+
 
 ### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
 
@@ -51,4 +54,4 @@ Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of c
 
 **Insight into Question 1:** The visualization reveals that women's participation was essentially zero before 1900, grew slowly through the mid-20th century, and then accelerated sharply from the 1970s onward, likely reflecting Title IX in the United States (1972), the IOC's push to add women's events, and broader societal shifts toward gender equity in sport. By 2016, the Summer Games approached 45% female participation. The Winter Games follow a broadly similar trajectory but with a notable lag, likely because Winter sports historically had fewer women's events. This visualization establishes the overall trend that Question 1 seeks to unpack further by region and sport.
 
-### Visualization 2: TODO
+## Visualization 2: TODO
