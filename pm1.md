@@ -45,7 +45,7 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 3: Does height and weight metrics affect Winter and Summer Games atheletes differently?
 
-### Question 4: 
+### Question 4: Which countries have the widest distribution of medals across all events?
 
 ## 3. Visualizations
 
