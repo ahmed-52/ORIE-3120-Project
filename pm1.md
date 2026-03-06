@@ -39,12 +39,15 @@ Our dataset, *120 Years of Olympic History: Athletes and Results*, was scraped f
 
 Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of competitors. This aggregate trend likely masks variation,some sports admitted women decades before others, and cultural barriers may have slowed growth in certain regions. This matters to the IOC and national federations working toward gender parity: understanding where progress has been slowest helps direct funding and policy. The dataset records each competitor's sex, NOC, sport, and year, giving us everything needed to track these trends.
 
-
-
 ### Question 2: Does hosting the Olympic Games give a country a measurable home-field advantage in winning medals?
 
-## 3. Visualizations
+The tradition of hosting Olympic Games in different countries encourages residents of that country to attend the games, as well as increasing advertisements for athletes of that country as well. With the home crowd on their side, will athletes representing the country hosting the Olympics perform better or worse than they have in years prior? We decided to look at this by creating a bar chart that shows the host country's Olympic medal number in the year that they were hosting the Olympics in comparison to the average of the other years where they were not hosting the Olympics. We create a lookup table mapping city to country, then perform aggregate counts over the dataset for the number of medals won. 
 
+### Question 3: Does height and weight metrics affect Winter and Summer Games atheletes differently?
+
+### Question 4: 
+
+## 3. Visualizations
 
 ### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
 
@@ -54,4 +57,10 @@ Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of c
 
 **Insight into Question 1:** The visualization reveals that women's participation was essentially zero before 1900, grew slowly through the mid-20th century, and then accelerated sharply from the 1970s onward, likely reflecting Title IX in the United States (1972), the IOC's push to add women's events, and broader societal shifts toward gender equity in sport. By 2016, the Summer Games approached 45% female participation. The Winter Games follow a broadly similar trajectory but with a notable lag, likely because Winter sports historically had fewer women's events. This visualization establishes the overall trend that Question 1 seeks to unpack further by region and sport.
 
-## Visualization 2: TODO
+## Visualization 2: 
+
+![Medals Won By Countries when Hosting vs Not Hosting](medals_host_country.png)
+
+**Description:** This bar chart compares the amount of medals won by countries when they are hosting the Olympics vs the average across other years when they are not. 
+
+**Insight into Question 2:** This visualization reveals that countries typically win a lot more medals when they are hosting that year vs the other years when they are not hosting. This is likely due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. In addition, the host country may be able to choose judges or staff that could skew the results in favor of their country's athletes, though it is uncommon. 
