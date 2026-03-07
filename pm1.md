@@ -47,7 +47,11 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 4: Which countries have the widest distribution of medals across all events?
 
-### Question 5: Is there a relationship between a team/country's performance in the summer versus winter olympics?
+### Question 5: Does the season of the Olympics (Summer or Winter) influence how a team/country performs (number of medals)?
+
+### Question 6: How does the average age of the athletes change in relation to the sport and their sex?
+
+### Question 7: 
 
 ## 3. Visualizations
 
