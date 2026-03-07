@@ -49,6 +49,8 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 5: How does the season of the Olympics (Summer or Winter) influence medal patterns in different countries/teams?
 
+Each country performs differently for each summer or winter Olympics. But which teams are stronger in both? In the summer? In the winter? This can be compared using a scatterplot, with the x-axis the number of summer medals and the y-axis the number of winter medals. Each point will represent a country, allowing us to compare each country's performances and how others did as well.
+
 ### Question 6: How does the age distribution of Olympic athletes vary by sport and sex?
 
 Some Olympic athletes begin their careers at a very young age, but there is a wide range in different ages that compete. Are there certain sports that have more of a certain age group competing that other sports? And does this change for different genders? This can show which sports have competitors that are only from a certain age range or have more flexibility. We will look at this by creating box plots for each sport and gender and comparing distributions.
