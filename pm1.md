@@ -72,3 +72,11 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 **Description:** This bar chart compares the amount of medals won by countries when they are hosting the Olympics vs the average across other years when they are not. 
 
 **Insight into Question 2:** This visualization reveals that countries typically win a lot more medals when they are hosting that year vs the other years when they are not hosting. This is likely due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. In addition, the host country may be able to choose judges or staff that could skew the results in favor of their country's athletes, though it is uncommon. 
+
+## Visualization 6:
+
+![Athlete Age Distribution by Sport and Sex](viz6.png)
+
+**Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
+
+**Insight into Question 2:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
