@@ -57,6 +57,14 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 ### Question 7: On average, how many games (years not events) do athletes compete in by country?
 
+### Question 8: Which sports have the highest athlete specialization versus multi-event participation?
+
+### Question 9: Which sports have the highest probability of winning a medal once an athlete competes?
+
+### Question 10: How has the number of Olympic events changed over time within each sport?
+
+### Question 11: Do athletes tend to win medals at younger or older ages depending on the sport?
+
 ## 3. Visualizations
 
 ### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
