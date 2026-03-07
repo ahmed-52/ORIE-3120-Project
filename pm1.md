@@ -65,7 +65,10 @@ The Olympic Games represent peak athletic performance across many different disc
 
 ## Visualization 3:
 
-![Athlete Age Distribution by Sport and Sex, divided between season](viz3_1.png)(viz3_2.png)(viz3_3.png)(viz3_4.png)
+![Athlete Age Distribution for Summer and Female athletes](viz3_1.png)
+![Athlete Age Distribution for Summer and Male athletes](viz3_2.png)
+![Athlete Age Distribution by Winter and Female athletes](viz3_3.png)
+![Athlete Age Distribution by Winter and Male athletes](viz3_4.png)
 
 **Description:** These visualizations show the standard deviation of the ages of each sport by sex and Olympic season. 
 
