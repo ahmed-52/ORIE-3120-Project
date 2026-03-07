@@ -47,6 +47,8 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 4: Which countries have the widest distribution of medals across all events?
 
+### Question 5: Is there a relationship between a team/country's performance in the summer versus winter olympics?
+
 ## 3. Visualizations
 
 ### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
