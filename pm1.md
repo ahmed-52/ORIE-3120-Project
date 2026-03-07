@@ -49,9 +49,9 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 5: Does the season of the Olympics (Summer or Winter) influence how a team/country performs (number of medals)?
 
-### Question 6: How does the average age of the athletes change in relation to the sport and their sex?
+### Question 6: How does the average age of the athletes vary in relation to the sport and their sex?
 
-### Question 7: 
+### Question 7: On average, how many games (years not events) do athletes compete in by country?
 
 ## 3. Visualizations
 
