@@ -81,4 +81,12 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 **Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
 
-**Insight into Question 2:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
+**Insight into Question 6:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
+
+## Visualization 4: 
+
+![Summer vs Winter Olympic Medal Counts by Country](viz4.png)
+
+**Description:**
+
+**Insight into Question 5:**
