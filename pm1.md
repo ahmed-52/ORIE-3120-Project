@@ -65,23 +65,23 @@ The Olympic Games represent peak athletic performance across many different disc
 
 ## Visualization 3:
 
-![Athlete Age Distribution by Sport and Sex](viz3.png)
+![Athlete Age Distribution by Sport and Sex, divided between season](viz3_1.png)(viz3_2.png)(viz3_3.png)(viz3_4.png)
 
-**Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
+**Description:** These visualizations show the standard deviation of the ages of each sport by sex and Olympic season. 
 
-**Insight into Question 3:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
+**Insight into Question 3:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger standard deviations. Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
 
-### Question 4: Which countries have the widest distribution of medals across all events?
+### Question 4: Which countries have the widest distribution of medals across Summer and Winter?
 
-
+Some countries have more dominance in the summer sports, and others have more dominance in the winter sports, while some have no dominance at all at the Olympics. We wanted to investigate what countries have medals in the Summer or Winter Olympics, or even both. This allows us to recognize trends within the countries, and even point out a few countries that have the most dominance in both. 
 
 ## Visualization 4: 
 
 ![Summer vs Winter Olympic Medal Counts by Country](viz4.png)
 
-**Description:** This scatterplot shows the numbers of medals won for all summer games and winter games for each country (represented by a point).
+**Description:** This scatterplot shows the numbers of medals won for all summer games (x axis) and winter games (y axis) for each country (represented by a point).
 
-**Insight into Question 4:** This visualization reveals that there are certain countries that performed relatively well in both the Summer and Winter Olympics. However, there were some teams such as Austria that won significantly more medals in the Winter Olympics than the Summer Olympics. The results can be related to the number of athletes for each team in general, and also the strength in skills/training/resources and popularity of a sport in each country.
+**Insight into Question 4:** This visualization reveals that there are certain countries that performed relatively well in both the Summer and Winter Olympics. However, there were some teams such as Austria that won significantly more medals in the Winter Olympics than the Summer Olympics. The results can be related to the number of athletes for each team in general, and also the strength in skills/training/resources and popularity of a sport in each country. This allows us to see trends in the country's regions corresponding to their performance at the Winter/Summer Olympics respectively. 
 
 <!--
 
