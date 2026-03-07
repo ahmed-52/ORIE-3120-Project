@@ -85,7 +85,7 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 ## Visualization 3:
 
-![Athlete Age Distribution by Sport and Sex](viz6.png)
+![Athlete Age Distribution by Sport and Sex](viz3.png)
 
 **Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
 
