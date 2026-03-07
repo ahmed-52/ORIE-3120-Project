@@ -87,6 +87,6 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 ![Summer vs Winter Olympic Medal Counts by Country](viz4.png)
 
-**Description:**
+**Description:** This scatterplot shows the numbers of medals won for all summer games and winter games for each country (represented by a point).
 
-**Insight into Question 5:**
+**Insight into Question 5:** This visualization reveals that there are certain countries that performed relatively well in both the Summer and Winter Olympics. However, there were some teams such as Austria that won significantly more medals in the Winter Olympics than the Summer Olympics. The results can be related to the number of athletes for each team in general, and also the strength in skills/training/resources and popularity of a sport in each country.
