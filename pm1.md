@@ -49,9 +49,9 @@ The tradition of hosting Olympic Games in different countries encourages residen
 
 ### Question 5: How does the season of the Olympics (Summer or Winter) influence medal patterns in different countries/teams?
 
-### Question 6: How does the average age of the athletes vary in relation to the sport and their sex?
+### Question 6: How does the age distribution of Olympic athletes vary by sport and sex?
 
-Some Olympic athletes begin their careers at a very young age, but there is a wide range in different ages that compete. Are there certain sports that have more younger people competing or older people competing? And does this change for different genders? This can show which sports have competitors that train from a very young age and which ones have more flexibility. We will look at this by creating a grouped bar chart that will allow us to compare the average ages of males versus females by sport. 
+Some Olympic athletes begin their careers at a very young age, but there is a wide range in different ages that compete. Are there certain sports that have more of a certain age group competing that other sports? And does this change for different genders? This can show which sports have competitors that are only from a certain age range or have more flexibility. We will look at this by creating box plots for each sport and gender and comparing distributions.
 
 ### Question 7: On average, how many games (years not events) do athletes compete in by country?
 
