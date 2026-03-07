@@ -75,7 +75,7 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 **Insight into Question 2:** This visualization reveals that countries typically win a lot more medals when they are hosting that year vs the other years when they are not hosting. This is likely due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. In addition, the host country may be able to choose judges or staff that could skew the results in favor of their country's athletes, though it is uncommon. 
 
-## Visualization 6:
+## Visualization 3:
 
 ![Athlete Age Distribution by Sport and Sex](viz6.png)
 
