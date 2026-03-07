@@ -33,19 +33,57 @@ Our dataset, *120 Years of Olympic History: Athletes and Results*, was scraped f
 - The Winter and Summer Games were held in the same year until 1992. After 1992 they were staggered . Analyses over time must account for this structural change.
 - Medal = NA means the athlete did not win a medal, not that the data is missing. Of the 271,116 entries, 39,783 (14.7%) are medal-winning performances.
 
-## 2. Questions
+## 2. Questions & Visualizations
 
 ### Question 1: How has women's participation in the Olympics evolved over time, and does the rate of growth differ across regions and sports?
 
 Women were excluded from the 1896 Games entirely; by 2016 they made up ~45% of competitors. This aggregate trend likely masks variation,some sports admitted women decades before others, and cultural barriers may have slowed growth in certain regions. This matters to the IOC and national federations working toward gender parity: understanding where progress has been slowest helps direct funding and policy. The dataset records each competitor's sex, NOC, sport, and year, giving us everything needed to track these trends.
 
+### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
+
+![Women's Share of Olympic Competitors](viz1_gender_participation.png)
+
+**Description:** This line chart tracks the percentage of female competitors at each Olympic Games from 1896 to 2016, with separate lines for the Summer and Winter Games.
+
+**Insight into Question 1:** The visualization reveals that women's participation was essentially zero before 1900, grew slowly through the mid-20th century, and then accelerated sharply from the 1970s onward, likely reflecting Title IX in the United States (1972), the IOC's push to add women's events, and broader societal shifts toward gender equity in sport. By 2016, the Summer Games approached 45% female participation. The Winter Games follow a broadly similar trajectory but with a notable lag, likely because Winter sports historically had fewer women's events. This visualization establishes the overall trend that Question 1 seeks to unpack further by region and sport.
+
 ### Question 2: Does hosting the Olympic Games give a country a measurable home-field advantage in winning medals?
 
 The tradition of hosting Olympic Games in different countries encourages residents of that country to attend the games, as well as increasing advertisements for athletes of that country as well. With the home crowd on their side, will athletes representing the country hosting the Olympics perform better or worse than they have in years prior? We decided to look at this by creating a bar chart that shows the host country's Olympic medal number in the year that they were hosting the Olympics in comparison to the average of the other years where they were not hosting the Olympics. We create a lookup table mapping city to country, then perform aggregate counts over the dataset for the number of medals won. 
 
-### Question 3: Does height and weight metrics affect Winter and Summer Games atheletes differently?
+## Visualization 2: 
+
+![Medals Won By Countries when Hosting vs Not Hosting](medals_host_country.png)
+
+**Description:** This bar chart compares the amount of medals won by countries when they are hosting the Olympics vs the average across other years when they are not. 
+
+**Insight into Question 2:** This visualization reveals that countries typically win a lot more medals when they are hosting that year vs the other years when they are not hosting. This is likely due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. In addition, the host country may be able to choose judges or staff that could skew the results in favor of their country's athletes, though it is uncommon. 
+
+### Question 3: Does age metrics affect Winter and Summer Games atheletes differently?
+
+The Olympic Games represent peak athletic performance across many different disciplines, and some athletes become better at their sport as they get older, and others may reach their peak at a certain age. We know in general, sports competitions favor the young and uninjured athletes over the vetarans, but we are unsure of this hypothesis for every single sport. As a result, we would like to explore the variance of age in sports, identifying which sports have the greatest variance and age and attempting to draw conclusions about the nature of the sport as a result. We divided this into four categories of Winter vs Summer games, as well as male vs female athletes to separate variables we think may play a part. 
+
+## Visualization 3:
+
+![Athlete Age Distribution by Sport and Sex](viz3.png)
+
+**Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
+
+**Insight into Question 3:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
 
 ### Question 4: Which countries have the widest distribution of medals across all events?
+
+
+
+## Visualization 4: 
+
+![Summer vs Winter Olympic Medal Counts by Country](viz4.png)
+
+**Description:** This scatterplot shows the numbers of medals won for all summer games and winter games for each country (represented by a point).
+
+**Insight into Question 4:** This visualization reveals that there are certain countries that performed relatively well in both the Summer and Winter Olympics. However, there were some teams such as Austria that won significantly more medals in the Winter Olympics than the Summer Olympics. The results can be related to the number of athletes for each team in general, and also the strength in skills/training/resources and popularity of a sport in each country.
+
+<!--
 
 ### Question 5: How does the season of the Olympics (Summer or Winter) influence medal patterns in different countries/teams?
 
@@ -65,36 +103,4 @@ Some Olympic athletes begin their careers at a very young age, but there is a wi
 
 ### Question 11: Do athletes tend to win medals at younger or older ages depending on the sport?
 
-## 3. Visualizations
-
-### Visualization 1: Women's Share of Olympic Competitors Over Time (by Season)
-
-![Women's Share of Olympic Competitors](viz1_gender_participation.png)
-
-**Description:** This line chart tracks the percentage of female competitors at each Olympic Games from 1896 to 2016, with separate lines for the Summer and Winter Games.
-
-**Insight into Question 1:** The visualization reveals that women's participation was essentially zero before 1900, grew slowly through the mid-20th century, and then accelerated sharply from the 1970s onward, likely reflecting Title IX in the United States (1972), the IOC's push to add women's events, and broader societal shifts toward gender equity in sport. By 2016, the Summer Games approached 45% female participation. The Winter Games follow a broadly similar trajectory but with a notable lag, likely because Winter sports historically had fewer women's events. This visualization establishes the overall trend that Question 1 seeks to unpack further by region and sport.
-
-## Visualization 2: 
-
-![Medals Won By Countries when Hosting vs Not Hosting](medals_host_country.png)
-
-**Description:** This bar chart compares the amount of medals won by countries when they are hosting the Olympics vs the average across other years when they are not. 
-
-**Insight into Question 2:** This visualization reveals that countries typically win a lot more medals when they are hosting that year vs the other years when they are not hosting. This is likely due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. In addition, the host country may be able to choose judges or staff that could skew the results in favor of their country's athletes, though it is uncommon. 
-
-## Visualization 3:
-
-![Athlete Age Distribution by Sport and Sex](viz3.png)
-
-**Description:** These box plots show the median, spread, quartiles, and outliers  of the ages of each sport by sex. 
-
-**Insight into Question 6:** This visualization shows that most sports have very similar medians. However, the outliers show that there are certain sports that have much larger ranges of age (one of them even having age 80+). Additionally, while most sports have similar medians between the different sexes, there are certain sports such as gymnastics, shooting, and others that do have a significant difference in median and spread. This could be due to the nature of the sport and activities that they have to perform.
-
-## Visualization 4: 
-
-![Summer vs Winter Olympic Medal Counts by Country](viz4.png)
-
-**Description:** This scatterplot shows the numbers of medals won for all summer games and winter games for each country (represented by a point).
-
-**Insight into Question 5:** This visualization reveals that there are certain countries that performed relatively well in both the Summer and Winter Olympics. However, there were some teams such as Austria that won significantly more medals in the Winter Olympics than the Summer Olympics. The results can be related to the number of athletes for each team in general, and also the strength in skills/training/resources and popularity of a sport in each country.
+-->
