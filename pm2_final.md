@@ -11,12 +11,14 @@ We decided to explore this question further, as we would like to see how women's
 ## Data Analysis Method - Linear Regression
 ### Question 2: Does hosting the Olympic Games give a country a measurable home-field advantage in winning medals?
 
-To answer this question, we used linear regression to estimate whether hosting the Olympics is associated with a higher medal count. First, we created a country-year dataset where each country’s medal count was recorded for each Olympic year. We then added a Host variable, where Host = 1 if the country hosted the Olympics that year and Host = 0 if they did not host. This model allowed us to estimate the average difference in medal count between host and non-host countries. The graph shows the "boost" of additional medals a country received when they hosted.
+To answer this question, we used linear regression to estimate whether hosting the Olympics is associated with a higher medal count. 
 
-We also created a second comparison based on each host country’s usual Olympic performance. For each host country, we calculated its average medal count in non-host years and compared that to the number of medals it won in its host year. This produced a “medal boost” value, defined as: 
+First, we created a country-year dataset where each country’s medal count was recorded for each Olympic year. We then added a Host variable, where Host = 1 if the country hosted the Olympics that year and Host = 0 if they did not host. This model allowed us to estimate the average difference in medal count between host and non-host countries.
+
+For the graph, we created a medal boost comparison based on each host country’s usual Olympic performance. For each host country, we calculated its average medal count in non-host years and compared that to the number of medals it won in its host year. This produced a “medal boost” value, defined as: 
 
 Medal Boost = Host Year Medal Count − Average Non-Host Medal Count
 
-The bar chart shows the residual, indicating which countries performed above or below what the model predicted.
+Then, we used a second linear regression model to predict Host Year Medal Count using Average Non-Host Medal Count. This model estimated how many medals a host country would expect to win based on its usual Olympic performance. The second graph shows the residuals from this model, which is the difference between the actual host-year medal count and the model’s predicted host-year medal count. Bars with values above zero show countries that overperformed relative to the model, while bars below zero show countries that underperformed.
 
-The visualization from milestone 1 and the analysis from milestone 2 show that countries typically win significantly more medals when they are hosting that year compared to the years where they are not hosting. This is could be due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. Additionally, it could also be due to increased investment they are hosting, larger team sizes, and overall increase in preparation of the athletes for the game they host.
+The visualization from Milestone 1 and the analysis from Milestone 2 show that countries typically win significantly more medals when they are hosting that year compared to the years where they are not hosting. This is could be due to the fact that when a country is hosting, athletes are fueled to impress the home crowd and may also have much more incentive to do well due to sponsorships. Additionally, it could also be due to increased investment they are hosting, larger team sizes, and overall increase in preparation of the athletes for the game they host.
