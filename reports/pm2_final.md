@@ -22,12 +22,17 @@ Three properties of the data shape every analysis below. First, the athlete-even
 
 To answer this question, we decided to create a model that would predict women's participation in the Olympics for the next four Olympic cycles. We modeled the aggregate for both summer and winter games, and then modeled the number across all the sports to see in which sport would the rate of growth increase the most. 
 
+The history of the modern Olympics mirrors the broader history of women's access to public life. When the first modern Games were held in Athens in 1896, women were entirely excluded. Women first competed in 1900 in tennis and golf, but for most of the 20th century their presence remained marginal — concentrated in a narrow set of "acceptable" sports and capped by both formal rules and informal cultural expectations. Tracking how this share has changed, and where it has changed fastest, gives us a quantitative window into a larger story about gender equity in elite sport.
+
+
 We decided to explore this question further, as we would like to see how women's involvement has grown over time, and if there is any external influences we can relate this to.
 
 
 ![Women's share of Olympic competitors over time, Summer vs Winter](../figures/viz1_gender_participation.png)
 
 *Figure 1. Share of female competitors at each Olympic Games from 1896 to 2016, separated by Season. Summer participation grew steadily after 1970 and approached ~45% by 2016; Winter lags by roughly 1–2 cycles. This is the observed series our logistic GLM was trained on.*
+
+The aggregate curve, while informative, can hide the mechanisms driving change. A rising global share could reflect either broad-based growth across all sports and regions, or rapid expansion in a handful of high-headcount sports while others lag. Distinguishing these matters both descriptively and for forecasting and lets us connect infleection points in the data to plausible external drivers such as the inclusion of women's events in previously male-only sports (marathon in 1984, boxing in 2012, ski jumping in 2014), the passage of Title IX in the United States in 1972, and IOC charter amendments in the 1990s explicitly committing to gender equity.
 
 ## Data Analysis Method - Linear Regression
 ### Question 2: Does hosting the Olympic Games give a country a measurable home-field advantage in winning medals?
