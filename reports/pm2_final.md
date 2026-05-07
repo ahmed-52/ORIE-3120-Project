@@ -28,7 +28,7 @@ The history of the modern Olympics mirrors the broader history of women's access
 We decided to explore this question further, as we would like to see how women's involvement has grown over time, and if there is any external influences we can relate this to.
 
 
-![Women's share of Olympic competitors over time, Summer vs Winter](../figures/viz1_gender_participation.png)
+![Women's share of Olympic competitors over time, Summer vs Winter](../figures/analysis1.png)
 
 *Figure 1. Share of female competitors at each Olympic Games from 1896 to 2016, separated by Season. Summer participation grew steadily after 1970 and approached ~45% by 2016; Winter lags by roughly 1–2 cycles. This is the observed series our logistic GLM was trained on.*
 
